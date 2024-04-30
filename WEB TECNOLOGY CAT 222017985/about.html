@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About the System</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: green;
+    }
+    /* Unvisited link */
+    a:link {
+      color: green; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: white;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+      padding: 8px;  
+    }
+    header{
+  background-color: #8987;
+  padding: 20px;
+}
+    section{
+      padding:32px;
+    }
+    footer{
+  background-color: #8987;
+  padding: 20px;
+}
+
+  </style>
+</head>
+<header>
+<body bgcolor="green"><br>
+
+  <form class="d-flex" role="search" action="search.php">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+      <img src="./image/wolves.jpg" width="90" height="60" alt="Logo">
+    </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Appointment.php">APPOINTMENT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Employee.php">EMPLOYEE</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Customer.php">CUSTOMER</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Inventory.php">INVENTORY</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Transactions.php">TRANSACTIONS</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Services.php">SERVICES</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./Vehicles.php">VEHICLES</a></li>
+  
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: greenyellow; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li><br><br>
+  </ul>
+</header>
+
+  <section>
+    <h2><bold><u>OUR MISSION</u></bold></h2>
+    <h2 style="color: black;">
+      <p><h3 style="color: black;">The mission of a garage management system typically revolves around optimizing the efficiency, organization, and customer service aspects of a garage or automotive service center. Here are some key components of its mission:</h3></p>
+
+      <ol>
+        <li><strong>Efficiency:</strong> Streamlining garage operations to minimize vehicle downtime and maximize throughput. This includes efficient scheduling of appointments, quick diagnosis and repair processes, and effective inventory management for spare parts.</li>
+        <li><strong>Organization:</strong> Implementing systems and processes to maintain a well-organized garage environment. This involves managing vehicle records, tracking maintenance schedules, and ensuring proper storage of tools and equipment.</li>
+        <li><strong>Customer Service:</strong> Prioritizing customer satisfaction by providing excellent service experiences. This includes clear communication with customers about repair status and costs, offering convenient appointment scheduling options, and providing accurate estimates and invoices.</li>
+        <li><strong>Safety and Compliance:</strong> Ensuring that all operations adhere to safety standards and regulatory requirements. This involves proper disposal of hazardous materials, compliance with environmental regulations, and maintaining a safe working environment for employees and customers.</li>
+        <li><strong>Growth and Profitability:</strong> Supporting the growth and profitability of the garage by optimizing resource utilization, attracting new customers through excellent service, and retaining existing customers through loyalty programs and quality workmanship.</li>
+      </ol>
+    </h2>
+
+    <h2 style="color: black;"><bold><u>WHAT DO WE DO</u></bold></h2>
+    <p>
+      <h3 style="color: black;">
+        In a garage management system, various tasks and functions are typically automated and streamlined to enhance the efficiency and effectiveness of garage operations. Here are some of the key activities that are commonly managed within a garage management system:
+      </h3>
+    </p>
+
+    <ol>
+      <li><strong>Appointment Scheduling:</strong> Allows customers to schedule appointments for vehicle servicing, repairs, inspections, and other maintenance tasks. Provides a centralized calendar for managing appointments, allocating time slots, and avoiding scheduling conflicts.</li>
+      <li><strong>Vehicle Management:</strong> Maintains a database of vehicles serviced by the garage, including information such as make, model, year, VIN (Vehicle Identification Number), and service history. Tracks vehicle maintenance schedules, upcoming services, and warranty information. Generates reminders for scheduled maintenance tasks and service intervals.</li>
+      <li><strong>Work Order Management:</strong> Generates work orders for each service or repair job, detailing the required tasks, parts, labor, and estimated costs. Assigns work orders to technicians and tracks their progress. Allows technicians to update the status of work orders, record completed tasks, and add notes or comments.</li>
+      <li><strong>Inventory Management:</strong> Manages inventory of spare parts, tools, and equipment used in vehicle repairs and maintenance. Tracks stock levels, reorder points, and supplier information. Automatically updates inventory records when parts are used in service jobs or when new stock is received.</li>
+      <li><strong>Customer Relationship Management (CRM):</strong> Stores customer information, including contact details, vehicle ownership, service history, and preferences. Tracks customer interactions, inquiries, complaints, and feedback. Facilitates communication with customers through email, SMS, or notifications regarding appointment reminders, service updates, and promotional offers.</li>
+      <li><strong>Billing and Invoicing:</strong> Generates invoices for completed service jobs, detailing the labor, parts, taxes, and other charges. Calculates total costs, including discounts, if applicable. Supports various payment methods and processes payments securely.</li>
+      <li><strong>Reporting and Analytics:</strong> Generates reports and analytics on key performance indicators (KPIs) such as revenue, profitability, labor productivity, service efficiency, and customer satisfaction. Provides insights to identify trends, opportunities for improvement, and areas of concern. Helps garage managers make informed decisions and optimize operations.</li>
+      <li><strong>Integration and Scalability:</strong> Integrates with other systems and tools such as accounting software, parts suppliers, diagnostic equipment, and vehicle databases. Scales to accommodate the needs of growing garages or multi-location service centers.</li>
+    </ol>
+  </section>
+
+  <footer>
+  <b><h2>UR CBE BIT &copy, 2024 &reg222017985, Designer by: BYIRINGIRO VIANNEY</h2></b>
+  </footer>
+</body>
+</html>
